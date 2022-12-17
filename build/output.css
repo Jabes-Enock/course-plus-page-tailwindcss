@@ -819,11 +819,6 @@ video {
   background-color: rgb(157 163 174 / var(--tw-bg-opacity));
 }
 
-.bg-gray-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(23 25 28 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1088,8 +1083,8 @@ video {
     display: none;
   }
 
-  .md\:w-screen {
-    width: 100vw;
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:w-1\/2 {
